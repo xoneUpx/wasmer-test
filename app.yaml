@@ -1,0 +1,10 @@
+# Required fields
+ 
+kind: wasmer.io/App.v0
+# username or namespace that owns the app
+owner: xgcdtest2x
+# App name
+name: xoneUpx-wasmer-test
+
+# Package to run (it can also be `.`)
+package: .
