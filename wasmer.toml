@@ -1,0 +1,19 @@
+[package]
+name = "xgcdtest2x/wasmer-test"
+version = "0.1.0"
+description = "Description for package wasmer-test"
+
+# See more keys and definitions at https://docs.wasmer.io/registry/manifest
+
+[[module]]
+name = "wasmer-test"
+source = "wasmer-test.wasm"
+abi = "wasi"
+
+[module.interfaces]
+wasi = "0.1.0-unstable"
+
+[[command]]
+name = "wasmer-test"
+module = "wasmer-test"
+runner = "wasi"
